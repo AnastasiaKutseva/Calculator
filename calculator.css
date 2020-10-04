@@ -1,0 +1,53 @@
+*{
+	user-select: none; /*запрещает выделение символов*/
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	outline: none; /*убирает рамку при фокусе*/
+	font-family: 'Inter', sans-serif;
+
+}
+
+.container{
+	background: pink;
+	height: 400px;
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+	-webkit-box-shadow: 7px 9px 27px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 9px 27px -6px rgba(0,0,0,0.75);
+	box-shadow: 7px 9px 27px -6px rgba(0,0,0,0.75);
+}
+.input input{
+	width: 300px;
+	border: none;
+	height: 50px;
+	background: #333;
+	color: white;
+	text-align: right;
+}
+.btn{
+	height: 70px;
+	width: 65px;
+	border: none;
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+
+.delete{
+	width: 150px;
+}
+.clean{
+	width: 150px;
+}
+.clr{
+	background:  #337ab7;
+	color: white;
+	width: 105px;
+}
+
+.btn:hover{
+	filter:brightness(80%);
+}
